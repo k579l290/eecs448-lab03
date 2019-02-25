@@ -1,0 +1,36 @@
+body
+{
+    background-color: gray;
+    background-image: url(https://i.gifer.com/76YS.gif);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+h1{
+    color: cyan;
+}
+p
+{
+    background-color: red;
+    color: white;
+    font-family: Calibri;
+    font-size: 16pt;
+}
+p.section2
+{
+    color: yellow;
+    font-family: Georgia;
+    font-size: 20pt;
+}
+a
+{
+    background-color: blue;
+    color: red;
+}
+
+a:hover
+{
+    background-color: red;
+    color: blue
+}

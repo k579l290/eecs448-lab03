@@ -1,0 +1,32 @@
+<html>
+	<head>
+    <title> Manipulation </title>
+    <link href="manipulation.css"
+                rel="stylesheet"
+                type="text/css"/>
+    <script type="text/javascript" src="manipulation.js">
+    </script>
+	</head>
+
+	<body>
+        <p id = "p">
+        This is exercise 4 of lab 3 for EECS448. <br>Here lies a paragraph with some dummy text. It is not supposed to make any sense nor have any meaning.</br>
+        You are not supposed to understand what is written here. However, I suppose it is ironic that you probably understand what I wrote.
+        </p>
+        <div> 
+            <br>Change the border color and width(Units in 0-255):</br>
+            <br>Red:<input type = "text" id="red" value="0"></br>
+            <br>Green:<input type = "text" id="green" value="0"></br>
+            <br>Blue:<input type = "text" id="blue" value="0"></br>
+            <br>Border width:<input type = "text" id="bordr" value="10"></br>
+            <button type="button" onclick="border()">Border</button>
+        </div>
+        <div>
+            <br>Change the background(Units in 0-255):</br>
+            <br>Red:<input type = "text" id="red1" value="255"></br>
+            <br>Green:<input type = "text" id="green1" value="255"></br>
+            <br>Blue:<input type = "text" id="blue1" value="255"></br>
+            <button type="button" onclick="background()">Background</button>
+        </div>        
+	</body>
+</html>
